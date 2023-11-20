@@ -9,7 +9,7 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline using Datab
 Here is the link to the Databricks notebook: [Project3 ETL Pipeline](https://adb-636253859913156.16.azuredatabricks.net/?o=636253859913156#notebook/3939950992228784)
 
 ## Video Demonstration
-[Here](https://youtu.be/Xpyrg53JXGQ?si=mVKgXC5WVqQ4UjUk) is a comprehensive walkthrough of the ETL pipeline, demonstrating its features and functionalities.
+[Here](https://youtu.be/5dpJrHdmKbQ) is a comprehensive walkthrough of the ETL pipeline, demonstrating its features and functionalities.
 
 ## Features
 - **Efficient Data Extraction:** Utilizing Databricks Auto Loader for scalable and real-time data ingestion from various sources.
@@ -70,6 +70,9 @@ The transformed data is loaded into Delta Lake, leveraging its ACID transaction 
 - **From Bar Chart:** The bar chart helps in identifying the most frequently occurring events, which can be crucial for understanding user behavior or system performance.
 
 - **From Time Series Plot:** The time series analysis reveals any cyclical patterns or anomalies in event occurrences, which are essential for predictive maintenance or resource allocation.
+
+### Conclusions and 
+Based on the transformed data and visualizations, the project offers insights into user behavior and system performance. Recommendations include optimizing resource allocation based on peak times and focusing on prevalent event types for targeted improvements.
 
 ## Workflow
 ![Alt text](images/workflow.png)
